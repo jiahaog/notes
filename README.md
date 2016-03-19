@@ -10,10 +10,18 @@ ssh-keygen -t rsa
 
 ### Git
 
+Git undo last commit and keep working changes
+
+```bash
+git reset --soft HEAD~
+```
+
 Git squash last `2` commits
+Will undo the last `2` commits and keep the changes staged and ready for another commit
 
 ```bash
 git reset --soft HEAD~2
+git commit -m "Some feature"
 ```
 
 ### Sync Files
