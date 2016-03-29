@@ -98,4 +98,21 @@ $ . some_script # same as the above
 
 ## Javascript
 
-- [How to create objects](https://np.reddit.com/r/javascript/comments/4c7dfn/which_way_is_the_best_way_to_create_objects_in/d1fp9kl)
+### Creating Objects
+
+```javascript
+const personPrototype = {
+  hello() {
+    return `Hello, my name is ${this.name}`;
+  }
+}
+
+const george = Object.create(personPrototype);
+
+george.name = 'George';
+george.hello()
+```
+[Source](https://youtu.be/lKCCZTUx0sI?t=15m1s)
+
+See also:
+- [Different ways to create objects](https://np.reddit.com/r/javascript/comments/4c7dfn/which_way_is_the_best_way_to_create_objects_in/d1fp9kl)
