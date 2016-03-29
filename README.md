@@ -83,13 +83,13 @@ trap - EXIT
 cleanUp
 ```
 
-### Difference between `source` and `./some_script`
+#### Executing Scripts
 
 `source` runs the script in the current process, does not require the script to be an executable
 
 ```bash
 $ source some_script
-$ . some_script
+$ . some_script # same as the above
 ```
 
 `./some_script` spawns a new shell and executes the script, according to the shebang line
