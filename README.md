@@ -83,6 +83,19 @@ trap - EXIT
 cleanUp
 ```
 
+### Difference between `source` and `./some_script`
+
+`source` runs the script in the current process, does not require the script to be an executable
+
+```bash
+$ source some_script
+$ . some_script
+```
+
+`./some_script` spawns a new shell and executes the script, according to the shebang line
+
+`bash some_script` also spawns a new shell and executes the file with bash
+
 ## Javascript
 
 - [How to create objects](https://np.reddit.com/r/javascript/comments/4c7dfn/which_way_is_the_best_way_to_create_objects_in/d1fp9kl)
