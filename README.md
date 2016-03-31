@@ -33,6 +33,12 @@ Use [rSync](http://linux.die.net/man/1/rsync) to sync files over ssh
 rsync -avzP ~/Desktop/ awesome@192.168.1.1:/home/awesome/files
 ```
 
+Also can use scp
+
+```bash
+scp -r user@192.168.1.1:/home/data/  ~/Desktop/
+```
+
 ### Run a shell command forever
 
 ```bash
