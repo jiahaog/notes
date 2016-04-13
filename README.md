@@ -102,6 +102,14 @@ $ . some_script # same as the above
 
 `bash some_script` also spawns a new shell and executes the file with bash
 
+#### OSX Clipboard
+
+Copy stdout to clipboard
+
+```
+$ echo 'Hello!' | pbcopy
+```
+
 ## Javascript
 
 ### Creating Objects
