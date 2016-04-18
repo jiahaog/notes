@@ -106,8 +106,15 @@ $ . some_script # same as the above
 
 Copy stdout to clipboard
 
-```
+```bash
 $ echo 'Hello!' | pbcopy
+```
+#### Simple HTTP Server
+
+Creates a HTTP server for files in the local directory. Either an `index.html` file (if present) or the other files in the directory wil be served.
+
+```bash
+$ python -m SimpleHTTPServer 8080
 ```
 
 ## Javascript
