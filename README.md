@@ -119,21 +119,24 @@ $ python -m SimpleHTTPServer 8080
 
 ## Javascript
 
-### Creating Objects
+### Factory Pattern for Objects
 
 ```javascript
-const personPrototype = {
-  hello() {
-    return `Hello, my name is ${this.name}`;
-  }
+function createObject(objectParams) {
+  const prototype = {
+    instanceMethod(params) {
+      return params;      
+    }
+  };
+
+  const instance = Object.create(prototype);
+
+  const instanceProps = {
+    data: objectParams.data
+  };
+  return Object.assign(instance, instanceProps);
 }
-
-const george = Object.create(personPrototype);
-
-george.name = 'George';
-george.hello()
 ```
-[Source](https://youtu.be/lKCCZTUx0sI?t=15m1s)
 
 See also:
 - [Different ways to create objects](https://np.reddit.com/r/javascript/comments/4c7dfn/which_way_is_the_best_way_to_create_objects_in/d1fp9kl)
