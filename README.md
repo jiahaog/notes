@@ -109,6 +109,18 @@ Copy stdout to clipboard
 ```bash
 $ echo 'Hello!' | pbcopy
 ```
+
+### Caffeinate
+
+Prevent OSX from sleeping
+
+```bash
+$ caffeinate
+
+# Or prevent sleep until script has completed
+$ caffeinate long_running_script.sh
+```
+
 #### Simple HTTP Server
 
 Creates a HTTP server for files in the local directory. Either an `index.html` file (if present) or the other files in the directory wil be served.
