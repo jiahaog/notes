@@ -129,6 +129,20 @@ Creates a HTTP server for files in the local directory. Either an `index.html` f
 $ python -m SimpleHTTPServer 8080
 ```
 
+## OSX
+
+### Taking screenshots
+
+| Shortcut      | Purpose                                   |
+|---------------|-------------------------------------------|
+| ⌘ + ⌃ + ⇧ + 4 | Select **area** and save to **clipboard** |
+| ⌘ + ⇧ + 4     | Select **area** and save to **desktop**   |
+| ⌘ + ⌃ + ⇧ + 3 | Save **screen** to **clipboard**          |
+| ⌘ + ⇧ + 3     | Save **screen** to **desktop**            |
+
+While selecting area, press `space` to select a window.
+
+
 ## Javascript
 
 ### Factory Pattern for Objects
