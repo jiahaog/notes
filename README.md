@@ -129,6 +129,14 @@ Creates a HTTP server for files in the local directory. Either an `index.html` f
 $ python -m SimpleHTTPServer 8080
 ```
 
+#### Find Files
+
+Find files by filename or wildcard
+
+```bash
+$ find ./test -name "*.php"
+```
+
 ## OSX
 
 ### Taking screenshots
