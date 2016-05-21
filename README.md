@@ -137,6 +137,17 @@ Find files by filename or wildcard
 $ find ./test -name "*.php"
 ```
 
+#### Keyboard Shortcuts
+
+| Shortcut      | Purpose                                   |
+|---------------|-------------------------------------------|
+| `ctrl` + `a`  | Go to the beginning of the line           |
+| `ctrl` + `e`  | Go to the end of the line                 |
+| `ctrl` + `u`  | Clear everything before the cursor        |
+| `ctrl` + `w`  | Delete the word before the cursor         |
+| `ctrl` + `l`  | Clear the screen                          |
+
+
 ## OSX
 
 ### Taking screenshots
