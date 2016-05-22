@@ -148,6 +148,18 @@ $ find ./test -name "*.php"
 | `ctrl` + `l`  | Clear the screen                          |
 
 
+#### Miscellaneous Commands
+```bash
+# show hex and ascii values
+$ xxd some_file.mp3
+
+# DNS address lookup
+$ nslookup google.com
+
+# show local cached IP-MAC address table
+$ arp -a
+```
+
 ## OSX
 
 ### Taking screenshots
