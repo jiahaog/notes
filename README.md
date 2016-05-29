@@ -24,6 +24,15 @@ git reset --soft HEAD~2
 git commit -m "Some feature"
 ```
 
+Rebase local branch with remote master
+
+```bash
+# while on the local branch
+
+git fetch origin
+git rebase origin/master
+```
+
 ### Sync Files
 
 Use [rSync](http://linux.die.net/man/1/rsync) to sync files over ssh
