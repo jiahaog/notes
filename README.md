@@ -206,3 +206,31 @@ function createObject(objectParams) {
 
 See also:
 - [Different ways to create objects](https://np.reddit.com/r/javascript/comments/4c7dfn/which_way_is_the_best_way_to_create_objects_in/d1fp9kl)
+
+## MongoDB
+
+MongoDB Authentication
+
+```
+# first login with admin credentials
+use admin
+db.auth('admin', 'password')
+
+use myDatabase
+
+# create a user local to `myDatabase`
+db.createUser({ user: "myuser",
+  pwd: "password",
+  roles: [
+    "readWrite"
+  ]
+})
+
+```
+
+Connect to the database using the following:
+```
+MONGO_URL=mongodb://${DATABASE_USER}:${DATABASE_PASSWORD}@${MONGO_IP}/${DATABASE_NAME}
+```
+
+
