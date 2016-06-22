@@ -207,6 +207,21 @@ function createObject(objectParams) {
 See also:
 - [Different ways to create objects](https://np.reddit.com/r/javascript/comments/4c7dfn/which_way_is_the_best_way_to_create_objects_in/d1fp9kl)
 
+## Python
+
+### Function Arbitrary arguments `*args`
+
+```python
+def foo(*args):
+
+    def bar(*args):
+        return args
+        
+    return bar(*args)
+
+>>> foo(1,2,3) # (1, 2, 3)
+```
+
 ## MongoDB
 
 MongoDB Authentication
@@ -232,5 +247,3 @@ Connect to the database using the following:
 ```
 MONGO_URL=mongodb://${DATABASE_USER}:${DATABASE_PASSWORD}@${MONGO_IP}/${DATABASE_NAME}
 ```
-
-
