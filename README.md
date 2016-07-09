@@ -146,6 +146,12 @@ Find files by filename or wildcard
 $ find ./test -name "*.php"
 ```
 
+#### Download a Static Website
+
+```bash
+$ wget -r -N http://example.com
+```
+
 #### Keyboard Shortcuts
 
 | Shortcut      | Purpose                                   |
