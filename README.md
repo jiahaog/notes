@@ -214,6 +214,10 @@ See also:
 - [Different ways to create objects](https://np.reddit.com/r/javascript/comments/4c7dfn/which_way_is_the_best_way_to_create_objects_in/d1fp9kl)
 
 ## Python
+### Run a prompt after running a python file
+```
+python -i hello.py
+```
 
 ### Function Arbitrary arguments `*args`
 
