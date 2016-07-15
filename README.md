@@ -33,6 +33,12 @@ git fetch origin
 git rebase origin/master
 ```
 
+Undo merge (to master) which has not been pushed
+
+```
+git reset --hard origin/master
+```
+
 ### Sync Files
 
 Use [rSync](http://linux.die.net/man/1/rsync) to sync files over ssh
