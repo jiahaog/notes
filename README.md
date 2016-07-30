@@ -39,6 +39,16 @@ Undo merge (to master) which has not been pushed
 git reset --hard origin/master
 ```
 
+Delete branches
+
+```
+# delete local branch
+git branch -d <branchName>
+
+# delete remote branch
+git push origin --delete <branchName>
+```
+
 ### Sync Files
 
 Use [rSync](http://linux.die.net/man/1/rsync) to sync files over ssh
