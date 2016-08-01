@@ -49,6 +49,20 @@ git branch -d <branchName>
 git push origin --delete <branchName>
 ```
 
+#### Submodules
+
+```
+# git clone with submodules
+git clone --recursive <submodule repository>
+
+# update submodule from upstream
+git submodule update --remote <submodule>
+
+# To pull in changes from submodules after the root repository remote has been updated
+git pull
+git submodule update
+```
+
 ### Sync Files
 
 Use [rSync](http://linux.die.net/man/1/rsync) to sync files over ssh
