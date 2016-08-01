@@ -287,3 +287,12 @@ Connect to the database using the following:
 ```
 MONGO_URL=mongodb://${DATABASE_USER}:${DATABASE_PASSWORD}@${MONGO_IP}/${DATABASE_NAME}
 ```
+
+## Docker
+
+Docker Compose 
+
+Rebuild and recreate all containers
+```
+docker-compose up -d --force-recreate --build
+```
