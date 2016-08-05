@@ -33,9 +33,9 @@ git fetch origin
 git rebase origin/master
 ```
 
-Undo merge (to master) which has not been pushed
+Replace messed up local branch with remote master
 
-```
+```bash
 git reset --hard origin/master
 ```
 
