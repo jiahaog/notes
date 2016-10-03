@@ -203,6 +203,9 @@ $ nslookup google.com
 
 # show local cached IP-MAC address table
 $ arp -a
+
+# copy contents of one directory to another
+$ cp directory_with_desired_contents/* ~/destination_directory
 ```
 
 ## OSX
