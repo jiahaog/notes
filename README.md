@@ -141,6 +141,17 @@ $ . some_script # same as the above
 
 `bash some_script` also spawns a new shell and executes the file with bash
 
+#### Multiple Commands in One Line
+
+```bash
+A; B    # Run A and then B, regardless of success of A
+A && B  # Run B if A succeeded
+A || B  # Run B if A failed
+A &     # Run A in background.
+```
+
+[Source](http://askubuntu.com/a/539293)
+
 #### OSX Clipboard
 
 Copy stdout to clipboard
