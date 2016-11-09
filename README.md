@@ -152,6 +152,15 @@ A &     # Run A in background.
 
 [Source](http://askubuntu.com/a/539293)
 
+#### Test TCP Connection
+
+Helpful snippet to test network connections that do not respond to cUrl
+
+```bash
+(echo > /dev/tcp/$HOST/$PORT) # returns a status code of whether the connection is successful
+echo $? # prints the status code of the last command
+```
+
 #### OSX Clipboard
 
 Copy stdout to clipboard
