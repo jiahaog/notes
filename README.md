@@ -159,7 +159,7 @@ do_stuff > /dev/null 2>&1
 ```
 Redirects `stdout` to `/dev/null`, redirects `stderr` to `stdout`
 
-[Source](http://unix.stackexchange.com/questions/119648/redirecting-to-dev-null)
+[Source](http://unix.stackexchange.com/a/119650)
 
 #### Test TCP Connection
 
