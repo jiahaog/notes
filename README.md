@@ -152,6 +152,15 @@ A &     # Run A in background.
 
 [Source](http://askubuntu.com/a/539293)
 
+#### Redirecting Output
+
+```bash
+do_stuff > /dev/null 2>&1
+```
+Redirects `stdout` to `/dev/null`, redirects `stderr` to `stdout`
+
+[Source](http://unix.stackexchange.com/questions/119648/redirecting-to-dev-null)
+
 #### Test TCP Connection
 
 Helpful snippet to test network connections that do not respond to cUrl
