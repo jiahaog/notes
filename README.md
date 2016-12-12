@@ -169,6 +169,11 @@ Helpful snippet to test network connections that do not respond to cUrl
 (echo > /dev/tcp/$HOST/$PORT) # returns a status code of whether the connection is successful
 echo $? # prints the status code of the last command
 ```
+#### Find Process Running on Port
+
+```bash
+lsof -i tcp:8002
+```
 
 #### OSX Clipboard
 
