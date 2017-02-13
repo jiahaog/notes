@@ -336,19 +336,7 @@ docker-compose up -d --force-recreate --build
 
 ### Connecting to host (not VM) inside the docker container
 
-
 On host (Mac):
 ```bash
-ifconfig en0
+ipconfig getifaddr en0
 ```
-
-Output:
-```
-en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
-	ether xx:xx:xx:xx:xx:xx
-	inet 10.1.1.1 netmask 0xfffffc00 broadcast 10.10.1.255
-	media: autoselect
-	status: active
-```
-
-`10.1.1.1` is the IP of the Docker host
