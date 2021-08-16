@@ -340,3 +340,11 @@ On host (Mac):
 ```bash
 ipconfig getifaddr en0
 ```
+
+## Performance
+
+Benchmark a command
+
+```sh
+perf stat -r 10 $command
+```
